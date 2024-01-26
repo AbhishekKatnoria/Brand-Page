@@ -9,7 +9,6 @@ section {
   width: 595px;
   height: 613px;
   margin-top: 125px;
-  
 }
 .uper-content {
   font-family: Poppins;
@@ -20,7 +19,7 @@ section {
 .lower-content {
   width: 404px;
   height: 91px;
-  margin-top: 28px;
+  margin-top: 25px;
   color: #5a5959;
   font-family: Poppins;
   font-size: 16px;
@@ -53,19 +52,18 @@ section {
   margin-top: 20px;
   font-family: Inter;
   font-weight: 400;
-line-height: 19px;
+  line-height: 19px;
 }
-.side-content img{
-    margin-top: 15px;
-    width: 32px;
-    height: 32px;
-    margin-right: 18px;
+.side-content img {
+  margin-top: 15px;
+  width: 32px;
+  height: 32px;
+  margin-right: 18px;
+  cursor: pointer;
 }
 .hero {
   display: flex;
   width: 530px;
   height: 487px;
   margin-top: 90px;
-  
 }
-

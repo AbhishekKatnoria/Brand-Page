@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .main-conatiner {
   display: flex;
   justify-content: space-between;
@@ -5,10 +9,10 @@
   width: 1420px;
   height: 72px;
 }
-.nav-logo{
-    width: 76px;
-    height: 42px;
-   margin: 15px 0 0 85px;
+.nav-logo {
+  width: 76px;
+  height: 42px;
+  margin: 15px 0 0 85px;
 }
 .info {
   display: flex;
@@ -16,26 +20,25 @@
   align-items: center;
   width: 333px;
   height: 24px;
-  margin-top: 24px;
 }
 .info a {
   text-decoration: none;
   margin-left: 24px;
   color: black;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
+  font-family: Poppins;
 }
 .info a:hover {
   color: blue;
 }
-.login button{
-  margin-top: 21px;
-  background-color:  #D01C28;
-  color:white;
+.login button {
+  background-color: #d01c28;
+  color: white;
   padding: 6px 16px 6px 16px;
   margin: 10px;
   border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Poppins;
 }
-
-
-
